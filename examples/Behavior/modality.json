@@ -1,0 +1,43 @@
+{
+    "state": {
+        "base_qvel": {"start": 253, "end": 256},
+        "robot_pos": {"start": 140, "end": 143},
+        "trunk_qpos": {"start": 236, "end": 240},
+        "arm_left_qpos": {"start": 158, "end": 165},
+        "arm_right_qpos": {"start": 197, "end": 204},
+        "gripper_left_qpos": {"start": 193, "end": 194},
+        "gripper_right_qpos": {"start": 232, "end": 233},
+        "trunk_qvel": {"start": 240, "end": 244},
+        "arm_left_qvel": {"start": 179, "end": 186},
+        "arm_right_qvel": {"start": 218, "end": 225},
+        "eef_left_pos": {"start": 186, "end": 189},
+        "eef_right_pos": {"start": 225, "end": 228},
+        "eef_left_quat": {"start": 189, "end": 193},
+        "eef_right_quat": {"start": 228, "end": 232},
+        "robot_lin_vel": {"start": 152, "end": 155},
+        "robot_ang_vel": {"start": 155, "end": 158}
+    },
+    "action": {
+        "base": {"start": 0, "end": 3},
+        "torso": {"start": 3, "end": 7},
+        "left_arm": {"start": 7, "end": 14},
+        "left_gripper": {"start": 14, "end": 15},
+        "right_arm": {"start": 15, "end": 22},
+        "right_gripper": {"start": 22, "end": 23}
+    },
+    "video": {
+        "rgb_left_wrist": {"original_key": "observation.images.rgb.left_wrist"},
+        "rgb_right_wrist": {"original_key": "observation.images.rgb.right_wrist"},
+        "rgb_head": {"original_key": "observation.images.rgb.head"},
+        "depth_left_wrist": {"original_key": "observation.images.depth.left_wrist"},
+        "depth_right_wrist": {"original_key": "observation.images.depth.right_wrist"},
+        "depth_head": {"original_key": "observation.images.depth.head"},
+        "seg_left_wrist": {"original_key": "observation.images.seg_instance_id.left_wrist"},
+        "seg_right_wrist": {"original_key": "observation.images.seg_instance_id.right_wrist"},
+        "seg_head": {"original_key": "observation.images.seg_instance_id.head"}
+    },
+    "annotation": {
+        "human.action.task_description": {"original_key": "annotation.human.action.task_description"}
+    }
+}
+
